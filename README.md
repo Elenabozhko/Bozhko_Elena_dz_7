@@ -1,6 +1,10 @@
 # Bozhko_Elena_dz_7
 Домашнее задание по уроку 7
+
+
 ДЗ 1
+
+
 import os
 pattern = {'my_project': ['settings', 'mainapp', 'adminapp', 'authapp']}
 for root, folders in pattern.items():
@@ -19,7 +23,12 @@ django_dirs = [item
                if os.path.isdir(os.path.join(folder, item))]
 print(django_dirs)
 
+
+
+
 ДЗ 3
+
+
 import os
 import shutil
 my_dir = 'task_7_3'
